@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: auto;
+}
+.heading {
+  background-image: url("./assets/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 590px;
+  height: 800px;
+  display: flex;
+  margin-bottom: 60px;
+}
+.background-black {
+  background-image: url("./assets/logo-light.svg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position-x: 280px;
+  background-position-y: 180px;
+  width: 600px;
+  background-color: black;
+}
+.heading-text {
+  background-image: url("./assets/logo-dark.svg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position-x: -320px;
+  background-position-y: 180px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-text p {
+  width: 300px;
+}
+button {
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+}
+section {
+  width: 1270px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+.text-galerry-1 {
+  padding: 50px;
+}
+.text-galerry-1 h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.text-galerry-1 p {
+  margin-top: 20px;
+}
+.image-2 {
+  grid-row: span 2;
+}
+.image-3 img {
+  width: 635px;
+  height: 360px;
+}
+.text-galerry-2 {
+  background-color: black;
+  color: white;
+  height: 337px;
+  margin-top: -40px;
+  padding: 50px;
+}
+.text-galerry-2 h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.text-galerry-2 p {
+  margin-top: 20px;
+  width: 300px;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer h2 {
+  text-transform: uppercase;
+  margin-right: 60px;
+}
+.footer-text {
+  display: flex;
+}
+.icons {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.map {
+  background-image: url("./assets/desktop/image-map.png");
+  height: 600px;
+}
+.text-map {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.text-map h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.address {
+  width: 300px;
+}
+.address h4 {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: orangered;
+  margin-bottom: 20px;
+}
+.address p:last-child {
+  margin-top: 20px;
+}
+.background {
+  background-color: orangered;
+}
+.next-page {
+  display: flex;
+  height: 40px;
+}
+.back-page {
+  display: flex;
+  height: 40px;
+}
+.next-page button {
+  border: 1px solid orangered;
+}
+.back-page button {
+  border: 1px solid orangered;
+}
+.next-page img {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+}
+.back-page img {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+  margin-left: 60px;
+}
+a {
+  text-decoration: none;
+}
